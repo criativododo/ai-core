@@ -1,56 +1,47 @@
 [
   {
     "id": "branding",
-    "title": "Branding",
     "path": "skills/branding/SKILL.md",
-    "version": "1.0.0"
+    "exists": true
   },
   {
     "id": "consultoria",
-    "title": "Consultoria",
     "path": "skills/consultoria/SKILL.md",
-    "version": "1.0.0"
+    "exists": true
   },
   {
     "id": "humanizar",
-    "title": "Humanizar",
     "path": "skills/humanizar/SKILL.md",
-    "version": "1.0.0"
+    "exists": true
   },
   {
     "id": "influencia",
-    "title": "Influencia",
     "path": "skills/influencia/SKILL.md",
-    "version": "1.0.0"
+    "exists": true
   },
   {
     "id": "jescri",
-    "title": "Jescri",
     "path": "skills/jescri/SKILL.md",
-    "version": "1.0.0"
+    "exists": true
   },
   {
     "id": "mensagens-influ",
-    "title": "Mensagens Influ",
     "path": "skills/mensagens-influ/SKILL.md",
-    "version": "1.0.0"
+    "exists": true
   },
   {
     "id": "planilhas-dodo",
-    "title": "Planilhas Dodo",
     "path": "skills/planilhas-dodo/SKILL.md",
-    "version": "1.0.0"
+    "exists": true
   },
   {
     "id": "tendencias",
-    "title": "Tendencias",
     "path": "skills/tendencias/SKILL.md",
-    "version": "1.0.0"
+    "exists": true
   },
   {
     "id": "tom-dodo",
-    "title": "Tom Dodo",
     "path": "skills/tom-dodo/SKILL.md",
-    "version": "1.0.0"
+    "exists": true
   }
 ]
