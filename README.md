@@ -1,19 +1,21 @@
-# AI Core
+# Criativo DODÔ AI Core
 
-Base de conhecimento compartilhada entre agentes de IA.
+Repositório oficial das Skills do Criativo DODÔ.
 
-## Objetivo
+## Objetivos
 
-Centralizar Skills, Prompts, Playbooks, Agentes, Templates e Conhecimento em um único repositório versionado.
+- Centralizar todas as skills
+- Versionamento único
+- Reutilização entre agentes
+- Fácil instalação
+- Evolução contínua
 
 ## Estrutura
 
-- skills/
-- agents/
-- commands/
-- playbooks/
-- prompts/
-- templates/
-- knowledge/
+skills/
+docs/
+templates/
 
-Todo conteúdo é versionado via Git.
+## Status
+
+🚧 Em desenvolvimento
