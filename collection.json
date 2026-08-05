@@ -1,0 +1,64 @@
+{
+  "name": "Criativo DODÔ AI Core",
+  "id": "criativododo.ai-core",
+  "version": "1.0.0-beta.1",
+  "author": "Criativo DODÔ",
+  "license": "MIT",
+  "repository": "https://github.com/criativododo/ai-core",
+  "skills": [
+    {
+      "id": "branding",
+      "title": "Branding",
+      "path": "skills/branding/SKILL.md",
+      "version": "1.0.0"
+    },
+    {
+      "id": "consultoria",
+      "title": "Consultoria",
+      "path": "skills/consultoria/SKILL.md",
+      "version": "1.0.0"
+    },
+    {
+      "id": "humanizar",
+      "title": "Humanizar",
+      "path": "skills/humanizar/SKILL.md",
+      "version": "1.0.0"
+    },
+    {
+      "id": "influencia",
+      "title": "Influencia",
+      "path": "skills/influencia/SKILL.md",
+      "version": "1.0.0"
+    },
+    {
+      "id": "jescri",
+      "title": "Jescri",
+      "path": "skills/jescri/SKILL.md",
+      "version": "1.0.0"
+    },
+    {
+      "id": "mensagens-influ",
+      "title": "Mensagens Influ",
+      "path": "skills/mensagens-influ/SKILL.md",
+      "version": "1.0.0"
+    },
+    {
+      "id": "planilhas-dodo",
+      "title": "Planilhas Dodo",
+      "path": "skills/planilhas-dodo/SKILL.md",
+      "version": "1.0.0"
+    },
+    {
+      "id": "tendencias",
+      "title": "Tendencias",
+      "path": "skills/tendencias/SKILL.md",
+      "version": "1.0.0"
+    },
+    {
+      "id": "tom-dodo",
+      "title": "Tom Dodo",
+      "path": "skills/tom-dodo/SKILL.md",
+      "version": "1.0.0"
+    }
+  ]
+}

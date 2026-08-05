@@ -1,22 +1,4 @@
-# macOS
+backup-*/
+__pycache__/
+*.pyc
 .DS_Store
-.AppleDouble
-.LSOverride
-
-# Windows
-Thumbs.db
-
-# Logs
-*.log
-
-# Temporary
-tmp/
-temp/
-
-# Editors
-.vscode/settings.json
-.idea/
-
-# Secrets
-.env
-.env.*

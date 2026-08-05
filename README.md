@@ -19,3 +19,10 @@ templates/
 ## Status
 
 🚧 Em desenvolvimento
+
+
+## Coleção
+
+- Skills disponíveis: 9
+- Manifesto: collection.json
+- Índice: skills/index.json
