@@ -60,5 +60,11 @@
       "path": "skills/tom-dodo/SKILL.md",
       "version": "1.0.0"
     }
-  ]
+  ],
+  "release": {
+    "channel": "stable",
+    "published_at": "2026-08-05T14:09:22Z",
+    "minimum_client_version": "1.0.0",
+    "schema_version": 1
+  }
 }
