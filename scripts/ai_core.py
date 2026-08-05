@@ -47,6 +47,61 @@ elif cmd == "doctor":
     )
     sys.exit(0)
 
+
+
+
+elif cmd == "release":
+    import shutil
+    import subprocess
+
+    subprocess.run(
+        [sys.executable, str(ROOT / "scripts" / "doctor.py")],
+        check=True
+    )
+
+    build = ROOT / "build-release"
+    dist = ROOT / "dist"
+
+    shutil.rmtree(build, ignore_errors=True)
+    shutil.rmtree(dist, ignore_errors=True)
+
+    build.mkdir()
+    dist.mkdir()
+
+    arquivos = [
+        "collection.json",
+        "README.md",
+        "CATALOG.md",
+        "CONTRIBUTING.md",
+        "ROADMAP.md"
+    ]
+
+    pastas = [
+        "skills",
+        "templates",
+        ".github"
+    ]
+
+    for arq in arquivos:
+        shutil.copy2(ROOT / arq, build / arq)
+
+    for pasta in pastas:
+        shutil.copytree(ROOT / pasta, build / pasta)
+
+    destino = dist / "ai-core"
+
+    shutil.make_archive(
+        str(destino),
+        "zip",
+        build
+    )
+
+    shutil.rmtree(build)
+
+    print("\\n✅ Release criada:")
+    print(destino.with_suffix(".zip"))
+    sys.exit(0)
+
 print("""
 AI Core CLI
 
@@ -56,4 +111,5 @@ list
 info <skill>
 manifest
 doctor
+release
 """)
