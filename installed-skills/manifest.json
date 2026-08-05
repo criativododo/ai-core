@@ -1,0 +1,42 @@
+{
+  "collection": "Criativo DODÔ AI Core",
+  "version": "1.0.0-beta.1",
+  "installed": [
+    {
+      "id": "branding",
+      "installed": true
+    },
+    {
+      "id": "consultoria",
+      "installed": true
+    },
+    {
+      "id": "humanizar",
+      "installed": true
+    },
+    {
+      "id": "influencia",
+      "installed": true
+    },
+    {
+      "id": "jescri",
+      "installed": true
+    },
+    {
+      "id": "mensagens-influ",
+      "installed": true
+    },
+    {
+      "id": "planilhas-dodo",
+      "installed": true
+    },
+    {
+      "id": "tendencias",
+      "installed": true
+    },
+    {
+      "id": "tom-dodo",
+      "installed": true
+    }
+  ]
+}
