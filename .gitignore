@@ -4,3 +4,4 @@ __pycache__/
 .DS_Store
 installed-skills/
 dist/
+.obsidian/workspace.json
