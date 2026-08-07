@@ -5,3 +5,9 @@ __pycache__/
 installed-skills/
 dist/
 .obsidian/workspace.json
+
+# Obsidian (arquivos locais)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.obsidian/cache/*
